@@ -1,2 +1,2 @@
 # web-developer
-web development projects that I develop
+web development projects
