@@ -27,6 +27,9 @@ body{
 .cabecalho-imagem{
     height: 26px;
 }
+.mobile-menu{
+    display: none;
+}
 .cabecalho-menu{
     display: flex;
     align-items: center;

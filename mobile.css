@@ -1,0 +1,45 @@
+.cabecalho-menu{
+    display:none
+}
+.mobile-menu{
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
+.hamburguer{
+    border-top: 2px solid;
+    width: 20px;
+    color: #FFF2E7;
+
+}
+.hamburguer::after, .hamburguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+}
+.skills-foto{
+    height: 90px;
+}
+.sobre-tudo{
+    display: flex;
+    flex-direction: column;
+}
+.contato-container{
+    width: 100%;
+}
+.contato-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
