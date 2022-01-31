@@ -1,87 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"content="Portifolio">
+    <meta name="description" content="Portifolio">
     <title>Guilherme Almeida</title>
-    <link rel="stylesheet" type= "text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
     <header class="cabecalho">
-        
-        <img class="cabecalho-imagem" src="images/Design sem nome 1.png"alt="">
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="#skills"> Skills</a>
-            <a class="cabecalho-menu-item" href="#projetos"> Projetos </a>
-            <a class="cabecalho-menu-item" href="#sobremim"> Sobre mim</a>
-            <a class="cabecalho-menu-item" href="#contato"> Contato</a>
-            <div class="logo">
-            <a href="//www.github.com/guilhermealmeidaa"><img src="images/2.png" class="cabecalho-imagem-logo-git"></a>
-            <a href="//www.linkedin.com/in/guilhermealmeidal/"><img src="images/3.png" class="cabecalho-imagem-logo-linkedin"></a>
-            </div>
-        </nav>
-        <nav>
-        </nav>
-       
+        <div class="cabecalho-container">
+            <img class="cabecalho-imagem" src="images/Design sem nome 1.png" alt="">
+            <nav class="cabecalho-menu">
+                <a class="cabecalho-menu-item" href="#skills"> Skills</a>
+                <a class="cabecalho-menu-item" href="#projetos"> Projetos </a>
+                <a class="cabecalho-menu-item" href="#sobremim"> Sobre mim</a>
+                <a class="cabecalho-menu-item" href="#contato"> Contato</a>
+                <span class="logo">
+                    <a href="//www.github.com/guilhermealmeidaa"><img src="images/2.png"
+                            class="cabecalho-imagem-logo-git"></a>
+                    <a href="//www.linkedin.com/in/guilhermealmeidal/"><img src="images/3.png"
+                            class="cabecalho-imagem-logo-linkedin"></a>
+                </span>
+            </nav>
+        </div>
     </header>
 
     <main>
-    <div class="conteudo">
-        <section class="conteudo-principal">
-        <div class="conteudo-principal-escrito">
-            <div class="juntinho">
-            <h2 class="conteudo-principal-escrito-cargo">Desenvolvedor Front-end</h2>
-            <h1 class="conteudo-principal-escrito-titulo"> Guilherme Almeida </h1>
+        <div class="conteudo">
+            <div class="conteudo-container">
+                <section class="conteudo-principal">
+                    <div class="conteudo-principal-escrito">
+                        <h2 class="conteudo-principal-escrito-cargo">Desenvolvedor Front-end</h2>
+                        <h1 class="conteudo-principal-escrito-titulo"> Guilherme Almeida </h1>
+                        <h2 class="conteudo-principal-escrito-subtitulo"> Estudo linguagens de programação WEB, como
+                            HTML,
+                            CSS e JavaScript e outras linguagens, como C++. Sempre atrás de expandir meus conhecimentos
+                            para
+                            novas tecnologias da área.
+                        </h2>
+                        <a class="conteudo-principal-escrito-botao" href="images/Curriculo+-+Guilherme+de+Almeida.pdf">
+                            Baixar curriculo!</a>
+                    </div>
+                    <img class="conteudo-principal-imagem" src="images/programador.png" alt="">
+                </section>
             </div>
-            <h2 class="conteudo-principal-escrito-subtitulo"> Estudo linguagens de programação WEB, como HTML, CSS e JavaScript e outras linguagens, como C++. Sempre atrás de expandir meus conhecimentos para novas tecnologias da área.
-            </h2>
-            <a class="conteudo-principal-escrito-botao" href="images/Curriculo+-+Guilherme+de+Almeida.pdf"> Baixar curriculo!</a>
-        </div>    
-            <img class="conteudo-principal-imagem" src="images/programador.png" alt="">
-        </section>
-    </div>
+        </div>
 
         <section id="skills" class="skills">
-            <h3 class="skills-titulo">Skills</h3>
-                <div class="skills-imagem">
-                    <img style="height: 100px; padding-left: 60px;" p src="images/4 1.png" alt="">
-                    <img style="height: 100px;" src="images/5.png" alt="">
-                    <img style="height: 100px;" src="images/6.png" alt="">
-                    <img style="height: 100px;" src="images/7.png" alt="">
-                    <img style="height: 100px;" src="images/8.png" alt="">
+            <div class="skills-container">
+                <h3 class="skills-titulo">Skills</h3>
+                <div class="skills-imagem-container">
+                    <div class="skills-imagem">
+                        <img class="skills-foto" src="images/4 1.png" alt="">
+                        <img class="skills-foto" src="images/5.png" alt="">
+                        <img class="skills-foto" src="images/6.png" alt="">
+                        <img class="skills-foto" src="images/7.png" alt="">
+                        <img class="skills-foto" src="images/8.png" alt="">
+                    </div>
                 </div>
+            </div>
         </section>
+
         <section id="sobremim" class="sobre">
-            <div class="sobre-titulo"><h3>Sobre mim</h3></div>
-            <div class="sobre-tudo">
-            <div class="sobre-esquerdo">
-                <div class="sobre-foto"><img style="height: 200px;" src="images/foto.png" alt="foto.png"></div>
-            </div>
-            <div class="sobre-direito">
-                <h2> Sou um estudante de Ciência da Computação e Ciência e Tecnologia na UFABC. Tive meu primeiro contato com desenvolvimento WEB na pandemia, onde decidi fazer um curso da Udemy e foi amor à primeira vista! Hoje, estou procurando aprender novas tecnologias para ter a capacidade de colocar todos meus conhecimentos em prática. Como qualquer pessoa, adoro estudar o que eu gosto, portanto, nunca canso de ver e rever materiais e aulas sobre a área tech. </h2>
-                <h2>Eu amo a tecnologia pela facilidade que ela pode proporcionar pra humanidade, usando de maneira correta. Desse modo, tenho a certeza de que vou dar 110% de mim para alcançar essa maneira certa junto com meus colaboradores onde eu trabalhar!</h2>
-            </div>
+            <div class="sobre-container">
+                <div class="sobre-titulo">
+                    <h3>Sobre mim</h3>
+                </div>
+                <div class="sobre-tudo">
+                    <div class="sobre-esquerdo">
+                        <div class="sobre-foto"><img style="height: 200px;" src="images/foto.png" alt="foto.png"></div>
+                    </div>
+                    <div class="sobre-direito">
+                        <h2> Sou um estudante de Ciência da Computação e Ciência e Tecnologia na UFABC. Tive meu
+                            primeiro
+                            contato com desenvolvimento WEB na pandemia, onde decidi fazer um curso da Udemy e foi amor
+                            à
+                            primeira vista! Hoje, estou procurando aprender novas tecnologias para ter a capacidade de
+                            colocar todos meus conhecimentos em prática. Como qualquer pessoa, adoro estudar o que eu
+                            gosto,
+                            portanto, nunca canso de ver e rever materiais e aulas sobre a área tech. </h2>
+                        <h2>Eu amo a tecnologia pela facilidade que ela pode proporcionar pra humanidade, usando de
+                            maneira
+                            correta. Desse modo, tenho a certeza de que vou dar 110% de mim para alcançar essa maneira
+                            certa
+                            junto com meus colaboradores onde eu trabalhar!</h2>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="contato" class="contato">
-            <h3 class="contato-titulo">Contato</h3>
-            <div class="contato-links">
-                <div class="contato-links-item">
-                    <a href="//www.github.com/guilhermealmeidaa"><img src="images/2.png"></a> <div> <a class="contato-links-escrito" href="//www.github.com/guilhermealmeidaa">Github: www.github.com/guilhermealmeidaa</a> </div>
+            <div class="contato-container">
+                <h3 class="contato-titulo">Contato</h3>
+                <div class="contato-links">
+                    <div class="contato-links-item">
+                        <a href="//www.github.com/guilhermealmeidaa"><img src="images/2.png"></a>
+                        <div> <a class="contato-links-escrito" href="//www.github.com/guilhermealmeidaa">Github:
+                                www.github.com/guilhermealmeidaa</a> </div>
+                    </div>
+                    <div class="contato-links-item">
+                        <a href="//www.linkedin.com/in/guilhermealmeidal/"><img src="images/3.png"></a>
+                        <div><a class="contato-links-escrito" href="//www.linkedin.com/in/guilhermealmeidal/">Linkedin:
+                                www.linkedin.com/in/guilhermealmeidal/</a></div>
+                    </div>
+                    <div class="contato-links-item">
+                        <a href="//www.instagram.com/guilhermealm._/"><img src="images/instagram.png"></a>
+                        <div> <a class="contato-links-escrito" href="//www.instagram.com/guilhermealm._/">Instagram:
+                                @guilhermealm._</a> </div>
+                    </div>
+                    <div class="contato-links-item">
+                        <a href="mailto:guilherme_lima02@hotmail.com"><img src="images/mail.png"> </a>
+                        <div> <a class="contato-links-escrito" href="mailto:guilherme_lima02@hotmail.com">Email:
+                                guilherme_lima02@hotmail.com</a> </div>
+                    </div>
+
                 </div>
-                <div class="contato-links-item">
-                    <a href="//www.linkedin.com/in/guilhermealmeidal/"><img src="images/3.png"></a> <div><a class="contato-links-escrito" href="//www.linkedin.com/in/guilhermealmeidal/">Linkedin: www.linkedin.com/in/guilhermealmeidal/</a></div>
-                </div>
-                <div class="contato-links-item">
-                    <a href="//www.instagram.com/guilhermealm._/"><img src="images/instagram.png"></a> <div> <a class="contato-links-escrito" href="//www.instagram.com/guilhermealm._/">Instagram: @guilhermealm._</a> </div>
-                </div>
-                <div class="contato-links-item">
-                    <a href="mailto:guilherme_lima02@hotmail.com"><img src="images/mail.png"> </a><div> <a class="contato-links-escrito" href="mailto:guilherme_lima02@hotmail.com">Email: guilherme_lima02@hotmail.com</a> </div>
-                </div>
-                
             </div>
         </section>
     </main>

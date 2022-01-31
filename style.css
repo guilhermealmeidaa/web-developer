@@ -12,70 +12,66 @@ body{
     background-color: #0E1D25;
 }
 .cabecalho{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; 
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.cabecalho-imagem{
-    height: 26px;
-    width: 210px;
-    position: relative;
-    top: 1px;
-    left: 40px;
+.cabecalho-container{
+    width: 95%;
+    height: 100%;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+.cabecalho-imagem{
+    height: 26px;
+}
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-size: 1.1em;
+}
+.cabecalho-menu-item:hover{
+    border-bottom: 0.2px solid #03989E;
+
+}
 .cabecalho-imagem-logo-git, .cabecalho-imagem-logo-linkedin{
-    height: 35px;
+    height: 37px;
 }
 .logo{
     display: flex;
     gap: 15px;
-    height: 35px;
-    position: relative;
-}
-.cabecalho-menu{
-    display: flex;
-    gap: 26px;
-    /* margin-right: 1px; */
-    align-items: flex-end;
-    margin-left: 700px;
-}
-.cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px;
 }
 .conteudo{
-    display: flex;
-    border-top: 0.4px solid #FFF2E7;  
-    
+    width: 100%;
+    border-top: 0.4px solid #FFF2E7; 
+}
+.conteudo-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .conteudo-principal{
     display: flex;
-    max-width: 1500px;
-    margin-top: 10px;
-    margin: auto;
-    /* flex-direction: row; */
     align-items: center;
     justify-content: space-around;
 }
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-    gap: 7px;
-    margin-top: 50px;
-    margin-left: 140px;
+    gap: 10px;
 }
 .conteudo-principal-escrito-cargo{
-    color: #03989E;
     font-family: 'Sarala', sans-serif;
+    color: #03989E;
     font-size: 24px;
-
 }
 .conteudo-principal-escrito-titulo{
     color: #FFF2E7;
@@ -87,12 +83,6 @@ body{
     font-family: 'Sarala', sans-serif;
     font-size: 20px;
     max-width: 800px
-}
-.conteudo-principal-imagem{
-    height: 400px;
-    margin-top: 50px;
-    margin-right: 100px;
-
 }
 .conteudo-principal-escrito-botao{
     display: flex;
@@ -116,13 +106,18 @@ body{
     color: black;
 }
 .skills{
+    width: 100%;
+}
+.skills-container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 24px;
-    margin-top: 50px;
+    flex-direction: column;
 }
 .skills-titulo{
+    
     border-top: 0.4px solid #FFF2E7 ;
     padding-top: 12px;
     font-family: 'Righteous', cursive;
@@ -130,21 +125,25 @@ body{
     font-size: 24px;
     color: #FFF2E7;
     margin-bottom: 36px;
-}
-
-.skills-imagem{
-    display: flex;   
-    flex-direction: row;
-    gap: 140px;
-    align-items: center;
     
 }
+.skills-imagem-container{
+    display: inline-block;
+}
+.skills-foto{
+    height: 110px;
+    margin: 20px;
+}
 .sobre{
+    width: 100%;
+    margin-top: 80px;
+}
+.sobre-container{
+    width: 90%;
+    margin: auto;
     display: flex;
-    margin-top: 100px;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px
 }
 .sobre-titulo{
     border-top: 0.4px solid #FFF2E7 ;
@@ -156,35 +155,36 @@ body{
     margin-bottom: 36px;
 }
 .sobre-tudo{
+    width: 90%;
     display: flex;
     align-items: center;
-}
-.sobre-esquerdo{
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
+    gap: 50px;
 }
 .sobre-direito{
     color: #ECD6C4;
     font-family: 'Sarala', sans-serif;
     font-size: 12px;
-    max-width: 800px
 }
 .contato{
+    width: 100%;
+    margin-top: 80px;
+}
+.contato-container{
+    width: 50%;
+    margin: auto;
     display: flex;
-    margin-top:100px;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 .contato-titulo{
-    display: flex;
+
     border-top: 0.4px solid #FFF2E7;
-    padding-top: 30px;
     font-family: 'Righteous', cursive;
     font-size: 24px;
     color: #FFF2E7;
-    margin-bottom: 24px;
+    padding-top: 12px;
+    margin-bottom: 20px;
 }
 .contato-links{
     display: flex;
