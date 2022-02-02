@@ -1,5 +1,5 @@
 body{
-    font-size: 70%;
+    font-size: 100%;
 }
 .cabecalho-menu{
     display:none
@@ -14,7 +14,7 @@ body{
     
 }
 .cabecalho-imagem{
-    height: 18px;
+    height: 14px;
 }
 .hamburguer{
     border-top: 2px solid;
@@ -48,4 +48,34 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.conteudo-principal-escrito-cargo{
+    font-family: 'Sarala', sans-serif;
+    color: #03989E;
+    font-size: 19px;
+}
+.conteudo-principal-escrito-titulo{
+    color: #FFF2E7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.conteudo-principal-escrito-subtitulo{
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    max-width: 800px
+}
+.conteudo-principal-escrito-botao{
+    font-size: 19px;
+}
+.sobre-direito{
+    font-size: 9px;
+}
+.conteudo-principal-imagem{
+    height: 17em;
+}
+.contato-links-escrito{
+    padding-left: 10px;
+    color: #FFF2E7;
+    font-size: 11px;
 }
