@@ -47,7 +47,7 @@ body{
 .contato-links{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 .conteudo-principal-escrito-cargo{
     font-family: 'Sarala', sans-serif;
