@@ -1,3 +1,6 @@
+body{
+    font-size: 70%;
+}
 .cabecalho-menu{
     display:none
 }
@@ -9,6 +12,9 @@
     background: none;
     cursor: pointer;
     
+}
+.cabecalho-imagem{
+    height: 18px;
 }
 .hamburguer{
     border-top: 2px solid;
@@ -41,5 +47,5 @@
 .contato-links{
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
