@@ -11,16 +11,15 @@ body{
     border: none;
     background: none;
     cursor: pointer;
-    
 }
 .cabecalho-imagem{
-    height: 14px;
+    height: 20px;
+    
 }
 .hamburguer{
     border-top: 2px solid;
     width: 20px;
     color: #FFF2E7;
-
 }
 .hamburguer::after, .hamburguer::before{
     content: '';
@@ -48,6 +47,11 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .conteudo-principal-escrito-cargo{
     font-family: 'Sarala', sans-serif;
@@ -78,4 +82,25 @@ body{
     padding-left: 10px;
     color: #FFF2E7;
     font-size: 11px;
+}
+.conteudo-principal-escrito-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E1D25;
+    width: 170px;
+    height: 45px;
+    border: 1px solid #03989E;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400px;
+    font-size: 28px;
+    color: #03989E;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.skills-foto{
+    height: 100px;
+    margin: 20px;
 }
